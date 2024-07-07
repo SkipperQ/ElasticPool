@@ -1,4 +1,4 @@
-# ElasticPool: Dynamic Thread Pool Component
+# ElasticPool: A Lightweight Dynamic Thread Pool Component
 
 
 ## Why ElasticPool?
