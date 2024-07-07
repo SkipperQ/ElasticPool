@@ -1,4 +1,4 @@
-package middleware.elastic.pool.sdk.config;
+package cn.skipperq.elastic.pool.sdk.config;
 /*
     Dynamic Configuration Entry
  */
