@@ -1,0 +1,39 @@
+24-07-08.12:31:10.014 [RMI TCP Accept-0] WARN  tcp                    - RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=61612] throws
+java.io.IOException: The server sockets created using the LocalRMIServerSocketFactory only accept connections from clients running on the host where the RMI remote objects have been exported.
+	at sun.management.jmxremote.LocalRMIServerSocketFactory$1.accept(LocalRMIServerSocketFactory.java:114)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:405)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:377)
+	at java.lang.Thread.run(Thread.java:750)
+24-07-08.12:31:10.019 [RMI TCP Accept-0] WARN  tcp                    - RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=61612] throws
+java.io.IOException: The server sockets created using the LocalRMIServerSocketFactory only accept connections from clients running on the host where the RMI remote objects have been exported.
+	at sun.management.jmxremote.LocalRMIServerSocketFactory$1.accept(LocalRMIServerSocketFactory.java:114)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:405)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:377)
+	at java.lang.Thread.run(Thread.java:750)
+24-07-08.12:31:10.290 [main            ] INFO  ElasticPoolAutoConfig  - Thread Pool Information: ["threadPoolExecutor01","threadPoolExecutor02"]
+24-07-08.12:37:42.454 [main            ] INFO  Version                - Redisson 3.26.0
+24-07-08.12:37:42.501 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-07-08.12:37:43.155 [redisson-netty-1-6] INFO  ConnectionsHolder      - 1 connections initialized for localhost/127.0.0.1:6379
+24-07-08.12:37:43.197 [redisson-netty-1-20] INFO  ConnectionsHolder      - 24 connections initialized for localhost/127.0.0.1:6379
+24-07-08.12:37:43.434 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-07-08.12:37:43.463 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8091 (http) with context path ''
+24-07-08.12:37:43.474 [main            ] INFO  Application            - Started Application in 2283.292 seconds (JVM running for 2283.897)
+24-07-08.12:37:52.421 [main            ] INFO  Application            - Starting Application using Java 1.8.0_382 on huaweimbookxpro with PID 59003 (/Users/qihaochun/elastic-pool/elastic-pool-test/target/classes started by qihaochun in /Users/qihaochun/elastic-pool)
+24-07-08.12:37:52.422 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+24-07-08.12:37:52.830 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-07-08.12:37:52.832 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-07-08.12:37:52.841 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+24-07-08.12:37:53.057 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8091 (http)
+24-07-08.12:37:53.063 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8091"]
+24-07-08.12:37:53.063 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-07-08.12:37:53.063 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-07-08.12:37:53.107 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-07-08.12:37:53.107 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 662 ms
+24-07-08.12:38:17.773 [main            ] INFO  ElasticPoolAutoConfig  - Thread Pool Information: ["threadPoolExecutor01","threadPoolExecutor02"]
+24-07-08.12:42:05.736 [main            ] INFO  Version                - Redisson 3.26.0
+24-07-08.12:42:05.767 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-07-08.12:42:05.924 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for localhost/127.0.0.1:6379
+24-07-08.12:42:05.963 [redisson-netty-1-20] INFO  ConnectionsHolder      - 24 connections initialized for localhost/127.0.0.1:6379
+24-07-08.12:42:06.191 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-07-08.12:42:06.217 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8091 (http) with context path ''
+24-07-08.12:42:06.226 [main            ] INFO  Application            - Started Application in 254.096 seconds (JVM running for 254.529)

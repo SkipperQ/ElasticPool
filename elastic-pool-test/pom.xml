@@ -48,7 +48,7 @@
             <artifactId>commons-codec</artifactId>
         </dependency>
 
-        <!-- 线程组件 -->
+        <!-- import ElasticPool -->
         <dependency>
             <groupId>cn.skipperq</groupId>
             <artifactId>elastic-pool-spring-boot-starter</artifactId>

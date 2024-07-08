@@ -1,0 +1,30 @@
+24-07-07.11:12:03.983 [main            ] INFO  Application            - Starting Application using Java 1.8.0_382 on 192.168.3.55 with PID 56818 (/Users/qihaochun/elastic-pool/elastic-pool-test/target/classes started by qihaochun in /Users/qihaochun/elastic-pool)
+24-07-07.11:12:03.985 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+24-07-07.11:12:04.632 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-07-07.11:12:04.634 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-07-07.11:12:04.650 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+24-07-07.11:12:04.980 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8091 (http)
+24-07-07.11:12:04.988 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8091"]
+24-07-07.11:12:04.988 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-07-07.11:12:04.988 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-07-07.11:12:05.044 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-07-07.11:12:05.044 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1020 ms
+24-07-07.11:15:03.550 [main            ] INFO  ElasticPoolAutoConfig  - Thread Pool Information: ["threadPoolExecutor01","threadPoolExecutor02"]
+24-07-07.11:17:38.024 [main            ] INFO  Version                - Redisson 3.26.0
+24-07-07.11:17:38.072 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-07-07.11:17:38.260 [redisson-netty-1-6] INFO  ConnectionsHolder      - 1 connections initialized for localhost/127.0.0.1:6379
+24-07-07.11:17:38.314 [redisson-netty-1-20] INFO  ConnectionsHolder      - 24 connections initialized for localhost/127.0.0.1:6379
+24-07-07.11:17:38.646 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-07-07.11:17:38.683 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8091 (http) with context path ''
+24-07-07.11:17:38.698 [main            ] INFO  Application            - Started Application in 335.13 seconds (JVM running for 336.348)
+24-07-07.11:17:42.638 [main            ] INFO  Application            - Starting Application using Java 1.8.0_382 on 192.168.3.55 with PID 56893 (/Users/qihaochun/elastic-pool/elastic-pool-test/target/classes started by qihaochun in /Users/qihaochun/elastic-pool)
+24-07-07.11:17:42.640 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+24-07-07.11:17:43.232 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-07-07.11:17:43.234 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-07-07.11:17:43.248 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+24-07-07.11:17:43.552 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8091 (http)
+24-07-07.11:17:43.557 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8091"]
+24-07-07.11:17:43.558 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-07-07.11:17:43.558 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-07-07.11:17:43.612 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-07-07.11:17:43.612 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 937 ms
