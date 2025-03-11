@@ -1,6 +1,6 @@
 package cn.skipperq.elastic.pool.sdk.domain;
 
-import cn.skipperq.elastic.pool.sdk.domain.model.ThreadPoolConfigEntity;
+import cn.skipperq.elastic.pool.sdk.domain.model.entity.ThreadPoolConfigEntity;
 
 import java.util.List;
 

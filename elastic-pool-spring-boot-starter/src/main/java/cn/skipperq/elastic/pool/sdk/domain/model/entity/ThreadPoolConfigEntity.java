@@ -1,4 +1,4 @@
-package cn.skipperq.elastic.pool.sdk.domain.model;
+package cn.skipperq.elastic.pool.sdk.domain.model.entity;
 
 public class ThreadPoolConfigEntity {
 

@@ -13,15 +13,14 @@ thread:
         policy: CallerRunsPolicy
 
 # management configuration
-dynamic:
-  thread:
-    pool:
-      config:
-        enabled: true
-        # redis host
-        host: 127.0.0.1
-        # redis port
-        port: 16379
+elastic:
+  pool:
+    config:
+      enabled: true
+      # redis host
+      host: 127.0.0.1
+      # redis port
+      port: 16379
 
 logging:
   level:

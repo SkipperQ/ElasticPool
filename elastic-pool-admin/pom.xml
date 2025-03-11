@@ -56,7 +56,7 @@
     </dependencies>
 
     <build>
-        <finalName>dynamic-thread-pool-admin-app</finalName>
+        <finalName>elastic-pool-admin-app</finalName>
         <resources>
             <resource>
                 <directory>src/main/resources</directory>
@@ -92,7 +92,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>cn.bugstack.middleware.dynamic.thread.pool.Application</mainClass>
+                    <mainClass>cn.skipperq.middleware.elastic.pool.Application</mainClass>
                     <layout>JAR</layout>
                 </configuration>
             </plugin>
