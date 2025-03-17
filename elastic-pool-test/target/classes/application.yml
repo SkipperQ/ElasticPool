@@ -1,5 +1,0 @@
-spring:
-  application:
-    name: elastic-pool-test-app
-  profiles:
-    active: dev
