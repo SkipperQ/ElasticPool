@@ -35,12 +35,12 @@ Caused by: org.redisson.client.RedisConnectionException: java.util.concurrent.Ex
 	at org.redisson.config.ConfigSupport.createConnectionManager(ConfigSupport.java:220)
 	at org.redisson.Redisson.<init>(Redisson.java:71)
 	at org.redisson.Redisson.create(Redisson.java:116)
-	at cn.skipperq.elastic.pool.sdk.config.ElasticPoolAutoConfig.redissonClient(ElasticPoolAutoConfig.java:52)
-	at cn.skipperq.elastic.pool.sdk.config.ElasticPoolAutoConfig$$EnhancerBySpringCGLIB$$290476a9.CGLIB$redissonClient$0(<generated>)
-	at cn.skipperq.elastic.pool.sdk.config.ElasticPoolAutoConfig$$EnhancerBySpringCGLIB$$290476a9$$FastClassBySpringCGLIB$$d503e6b0.invoke(<generated>)
+	at config.cn.skipperq.middleware.elastic.pool.sdk.ElasticPoolAutoConfig.redissonClient(ElasticPoolAutoConfig.java:52)
+	at config.cn.skipperq.middleware.elastic.pool.sdk.ElasticPoolAutoConfig$$EnhancerBySpringCGLIB$$290476a9.CGLIB$redissonClient$0(<generated>)
+	at config.cn.skipperq.middleware.elastic.pool.sdk.ElasticPoolAutoConfig$$EnhancerBySpringCGLIB$$290476a9$$FastClassBySpringCGLIB$$d503e6b0.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
 	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
-	at cn.skipperq.elastic.pool.sdk.config.ElasticPoolAutoConfig$$EnhancerBySpringCGLIB$$290476a9.redissonClient(<generated>)
+	at config.cn.skipperq.middleware.elastic.pool.sdk.ElasticPoolAutoConfig$$EnhancerBySpringCGLIB$$290476a9.redissonClient(<generated>)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -119,3 +119,9 @@ Caused by: java.net.UnknownHostException: Failed to resolve 'null' [A(1)] after 
 	... 35 common frames omitted
 25-03-11.18:45:47.076 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
 25-03-11.19:37:58.095 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-03-18.19:57:04.644 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-03-18.19:57:19.440 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-03-18.19:59:11.804 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-03-18.20:00:31.380 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-03-18.20:05:15.968 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-03-18.20:08:25.626 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'

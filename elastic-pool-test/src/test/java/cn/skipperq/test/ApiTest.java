@@ -1,7 +1,7 @@
 package cn.skipperq.test;
 
 
-import cn.skipperq.elastic.pool.sdk.domain.model.entity.ThreadPoolConfigEntity;
+import cn.skipperq.middleware.elastic.pool.sdk.domain.model.entity.ThreadPoolConfigEntity;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
 import org.junit.runner.RunWith;

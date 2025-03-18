@@ -1,1 +1,0 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=cn.skipperq.elastic.pool.sdk.config.ElasticPoolAutoConfig

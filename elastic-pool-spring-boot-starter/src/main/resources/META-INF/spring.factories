@@ -1,1 +1,1 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=cn.skipperq.elastic.pool.sdk.config.ElasticPoolAutoConfig
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=cn.skipperq.middleware.elastic.pool.sdk.config.ElasticPoolAutoConfig

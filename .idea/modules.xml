@@ -4,8 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/elastic-pool.iml" filepath="$PROJECT_DIR$/elastic-pool.iml" />
       <module fileurl="file://$PROJECT_DIR$/elastic-pool-admin/elastic-pool-admin.iml" filepath="$PROJECT_DIR$/elastic-pool-admin/elastic-pool-admin.iml" />
-      <module fileurl="file://$PROJECT_DIR$/elastic-pool-spring-boot-starter/elastic-pool-spring-boot-starter.iml" filepath="$PROJECT_DIR$/elastic-pool-spring-boot-starter/elastic-pool-spring-boot-starter.iml" />
-      <module fileurl="file://$PROJECT_DIR$/elastic-pool-test/elastic-pool-test.iml" filepath="$PROJECT_DIR$/elastic-pool-test/elastic-pool-test.iml" />
     </modules>
   </component>
 </project>
