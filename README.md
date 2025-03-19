@@ -51,7 +51,9 @@ graph TD
 ```
 
 ## Performance Benchmarks
-**Test Environment**: 4 vCPU / 8GB RAM (AWS t3.xlarge), 10K RPS sustained load
+**Test Environment**: 
+- Apple MacBook Air (M1/8-core CPU/16GB Unified Memory)
+​- Middleware: Redis 7.2 (Docker container with 1GB memory limit)
 
 | Metric                | ElasticPool | Fixed Pool | Improvement |
 |-----------------------|-------------|------------|-------------|
