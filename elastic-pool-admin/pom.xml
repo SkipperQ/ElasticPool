@@ -92,7 +92,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>cn.skipperq.middleware.elastic.pool.Application</mainClass>
+                    <mainClass>cn.skipperq.elastic.pool.Application</mainClass>
                     <layout>JAR</layout>
                 </configuration>
             </plugin>
