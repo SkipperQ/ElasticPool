@@ -53,7 +53,7 @@ graph TD
 ## Performance Benchmarks
 **Test Environment**: 
 - Apple MacBook Air (M1/8-core CPU/16GB Unified Memory)
-​- Middleware: Redis 7.2 (Docker container with 1GB memory limit)
+- Middleware: Redis 7.2 (Docker container with 1GB memory limit)
 
 | Metric                | ElasticPool | Fixed Pool | Improvement |
 |-----------------------|-------------|------------|-------------|
